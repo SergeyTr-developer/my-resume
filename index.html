@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="sergey, cv, resume" />
+    <meta name="description" content="Это сайт - резюме Сергея Труфанова" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sergey Resume</title>
+  </head>
+  <body>
+    <header>
+      <article class="container">
+        <article class="header_box">
+          <img
+            class="avatar_pic"
+            src="./img/photo_2023-03-28_19-56-46.jpg"
+            alt="Сергей Труфанов"
+          />
+
+          <article class="title_wrap">
+            <h1 class="firstname">Сергей Труфанов</h1>
+
+            <h2 class="title_text">Образование</h2>
+            <p class="info_text">
+              <strong>
+                2023, "1T" (Москва),<em>
+                  разработка Web и мультимедийных приложений</em
+                >, профессиональная переподготовка (256 часов)</strong
+              >
+            </p>
+            <p class="info_text">
+              <strong>
+                2012, "Российский государственный торгово-экономический
+                университет" (Москва), Экономический,<em>
+                  Коммерция (торговое дело)</em
+                ></strong
+              >
+            </p>
+          </article>
+        </article>
+      </article>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2 class="title_text">Социальные сети</h2>
+        <article class="desc">
+          <a
+            class="link_net"
+            href="https://t.me/sergeytrufanov_developer"
+            target="_blank"
+            >Telegram
+          </a>
+        </article>
+      </section>
+      <section>
+        <h2 class="title_text">Мои хобби</h2>
+        <ol class="list_items">
+          <li class="list_item">Плавание</li>
+          <li class="list_item">Коллекционирование</li>
+          <li class="list_item">Путешествия</li>
+          <li class="list_item">Большой теннис</li>
+        </ol>
+      </section>
+      <section>
+        <table class="desc_opyt">
+          <h2 class="title_text">Опыт работы</h2>
+          <thead>
+            <tr>
+              <th class="desc_title">Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead>
+          <tbody class="desc_list">
+            <tr>
+              <td class="desc_title">Директ-Логистик</td>
+              <td>Торговый представитель</td>
+              <td>2018-2019</td>
+            </tr>
+            <tr>
+              <td class="desc_title">Курск-Агро</td>
+              <td>Старший специалист по охране труда</td>
+              <td>2016-2018</td>
+            </tr>
+            <tr>
+              <td class="desc_title">Медиолан-Маркет</td>
+              <td>Торговый представитель</td>
+              <td>2012-2016</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="container">
+      <form action="#" class="contacts_form">
+        <h2 class="contacts_text">Связаться со мной</h2>
+        <article class="form_box">
+          <article class="contacts_groups">
+            <label class="form_groups" for="name">Ваше имя:</label>
+            <input
+              class="modal"
+              type="text"
+              id="name"
+              placeholder="Введите имя"
+            />
+          </article>
+          <article class="contacts_groups">
+            <label class="form_groups" for="email">Ваш email:</label>
+            <input
+              class="modal"
+              type="email"
+              id="email"
+              placeholder="Введите email"
+            />
+          </article>
+        </article>
+        <label class="form_groups" for="message">Ваше сообщение:</label>
+        <article class="form_modal">
+          <textarea
+            class="modal"
+            id="message"
+            cols="32"
+            rows="10"
+            placeholder="Введите сообщение..."
+          ></textarea>
+        </article>
+        <article class="btn_box">
+          <button class="form_btn" type="submit">Отправить!</button>
+        </article>
+      </form>
+    </footer>
+  </body>
+</html>
